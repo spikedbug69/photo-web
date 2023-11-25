@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Photo</title>
+</head>
+<body>
+    <h2>Add Photo</h2>
+    <form action="album.html" method="post" enctype="multipart/form-data">
+        <label for="albumName">Album Name:</label>
+        <input type="text" id="albumName" name="albumName" required>
+
+        <label for="photoName">Photo Name:</label>
+        <input type="text" id="photoName" name="photoName" required>
+
+        <label for="photoFile">Choose a file:</label>
+        <input type="file" id="photoFile" name="photoFile" accept="image/*" required>
+
+        <input type="submit">
+    </form>
+</body>
+</html>
